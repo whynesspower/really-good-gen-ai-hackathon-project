@@ -1,4 +1,10 @@
-# **Flipkart Grid 5.0**
+# **Neytiri**
+
+This is a Generative AI application which will add natural language to image/product search capablity to ecommerce application. 
+
+Based on the gender, age of a person, their purchase history, their preferences in color and clothing brand (all fetched from their purchase history) this application suggests them clothing outfit they should wear. Its a text to image searching using single shot AI training.  
+
+Note: `This is the recent iteration of the project, Updated on Oct 2024, Recommended python version of 3.9 is required (to avoid setuptool and wheel errors). requirements.txt file has been updated with the dependancy versions`
 
 ## **Problem Statement Title:** Conversational Fashion Outfit Generator powered by GenAI
 
@@ -57,10 +63,11 @@ Create a .env file at the root director which should have the following variable
 
 `OPEN_AI_API_KEY = "YOUR_API_KEY_HERE"
 `
-
+(Optional)
 `USER_ID = os.getenv("YOUR_INSTAGRAM_ID_HERE")
 `
 
+(Optional)
 `ACCESS_TOKEN = os.getenv("ACCESS_TOKEN_FOR_INSTAGRAM")`
 
 ### Frontend:
@@ -71,7 +78,6 @@ Navigate to the frontend folder and install the dependancies using
 run the server locally using `npm start`
 
 This will start your frontend server on the default `localhost:3000`
-
 
 # How does it work?
 
